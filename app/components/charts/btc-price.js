@@ -39,7 +39,13 @@ const Chart = () => {
 
   return (
     <div>
-      <h2>Price Chart</h2>
+        <div className="flex flex-col m-3 text-base-content">
+        <h1>
+          Crypto Millionaires: the Chart that Created Them
+        </h1>
+
+        <h2>Bitcoin Price and Volume from 2015 - 2024</h2>
+      </div>
       <LineChart width={800} height={400} data={data}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="Date" />

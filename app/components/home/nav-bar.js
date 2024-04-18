@@ -23,7 +23,7 @@ export default function NavBar() {
           </ul>
         </div>
       </div> */}
-      <div className="navbar-end mr-5">
+      <div className="navbar-end mr-10">
         <ThemeController />
       </div>
     </div>
