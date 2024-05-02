@@ -1,16 +1,6 @@
 export default function ThemeController() {
   const fonts = [
-    "cupcake",
-    "synthwave",
-    "retro",
-    "cyberpunk",
-    "valentine",
-    "forest",
-    "aqua",
-    "black",
-    "dracula",
-    "coffee",
-    "sunset",
+    "black"
   ];
 
   return (

@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <Layout>
-      <div className="flex min-w-full text-base-content items-center justify-center flex-col mt-14 sm:flex-row">
+      <div className="flex min-w-full text-base-content items-center justify-center flex-col mt-14 sm:flex-row ">
         <div className="flex sm:w-1/2 w-3/4 justify-center items-center flex-col ">
           <div className="text-left w-3/4">
             <h1 className="sm:text-8xl text-6xl font-anta">Evan</h1>

@@ -24,7 +24,7 @@ module.exports = {
     },
   },
   plugins: [],
-  plugins: [daisyui],
+  plugins: [require('@tailwindcss/typography'), daisyui],
 
   daisyui: {
     themes: [
@@ -57,6 +57,7 @@ module.exports = {
       "dim",
       "nord",
       "sunset",
+      "luxury"
     ],
   },
 
