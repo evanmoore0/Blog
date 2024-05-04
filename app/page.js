@@ -16,44 +16,24 @@ export default function Home() {
 
   return (
     <Layout>
-      <div className="flex min-w-full text-base-content items-center justify-center flex-col mt-14 sm:flex-row ">
+      <div className="flex min-w-full text-base-content items-center justify-center flex-col sm:flex-row ">
         <div className="flex sm:w-1/2 w-3/4 justify-center items-center flex-col ">
           <div className="text-left w-3/4">
-            <h1 className="sm:text-8xl text-6xl font-anta">Evan</h1>
-            <h1 className="sm:text-8xl text-6xl font-anta">Moore</h1>
+            <h1 className="sm:text-8xl text-6xl font-anta">SCHNEEF</h1>
           </div>
 
           <p className="w-3/4 mt-10 leading-8 text-lg font-mono">
-            {`\tHey, I'm Evan Moore, a Computer Science student at Brown University
-            fascinated by technology. With a passion for both coding and leadership,
-            I'm eager to share my journey and insights as I navigate through the
-            ever-evolving tech landscape.`}
+            {`SCHNEEF SCHNEEF SCHNEEF!
+
+The Deep State is fuming that we made this token. Crypto used to be the wild west, now it is East Berlin. Help us make crypto GREAT AGAIN and PUMP SCHNEEF!`}
           </p>
         </div>
 
         <div className="divider lg:divider-horizontal"></div>
 
         <div className="flex w-1/2 sm:mt-0 mt-12 justify-center items-center">
-          <Image src={"/img/Prog_Room.png"} width={800} height={800} />
+          <Image src={"/img/Schneef.png"} width={400} height={400} />
         </div>
-      </div>
-
-      <div className=" mt-14 w-screen flex items-center justify-center hover:cursor-pointer">
-        <IoIosArrowDown
-          size={50}
-          color="oklch(var(--a))"
-          onClick={scrollToBottom}
-        />
-      </div>
-
-      <div
-        className="m-10 h-screen flex justify-center flex-col"
-        ref={scrollTargetRef}
-      >
-        <h1 className="text-5xl text-base-content mb-8 font-anta">Blogs</h1>
-        <div className="divider"></div>
-
-        <Carousel />
       </div>
     </Layout>
   );
